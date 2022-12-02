@@ -1,0 +1,46 @@
+body {
+  background-color: #9bfec4;
+}
+.row {
+  padding: 20px;
+}
+.sentence {
+  padding: 20px;
+  font-size: 20px;
+}
+button {
+  border-radius: 150px;
+  border: 3px solid gray;
+  padding: 20px 50px;
+  display: block;
+  margin: 0 auto;
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  background: none;
+}
+.image {
+  font-size: 80px;
+  margin: 0;
+}
+.wind_percipitation {
+  font-size: 12px;
+}
+.note {
+  text-align: left;
+  font-size: smaller;
+}
+.temperature {
+  font-size: 28px;
+}
+.currentDate {
+  font-size: 20px;
+}
+.location {
+  border: 3px solid gray;
+  padding: 10px 10px 5px;
+  display: block;
+  margin: 0 auto;
+  transition: all 200ms ease-in-out;
+  background-color: #ffffff;
+}
