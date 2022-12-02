@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Geolocation</title>
+</head>
+
+<body>
+    <h4>HTML Geolocation</h4>
+    <button onclick="getlocation()">Click Here</button>
+    <br />
+    <br />
+    <br />
+    <p></p>
+    <div id="geolocation1"></div>
+    <script>
+        var x = document.getElementById("geolocation1");
+        function getlocation() {
+            if (navigator.geolocation) {
+                alert("My browser is going to support Geolocation feature");
+            } else {
+                alert("Oops! My browser is not going to support Geolocation feature");
+            }
+        }
+    </script>
+    <script src="src/index.js"></script>
+</body>
+
+</html>
